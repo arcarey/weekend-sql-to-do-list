@@ -23,6 +23,7 @@ router.post("/", (req, res) => {
         "text", "complete")
          VALUES ($1, $2);`;
   let newTask = req.body;
+  console.log('req.body.text:', newTask.text, 'req.body.complete:', newTask.complete);
   pool
     .query(queryText, [newTask.text, newTask.complete])
     .then(() => {
