@@ -1,9 +1,11 @@
-# Project Name
+# Checklist!
 
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
 
-## Description
 
-Your project description goes here. What problem did you solve? How did you solve it?
+## Checklist using Jquery/ajax, node, express, postgresql.
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+This is a basic checklist project to demonstrate a simple full stack application, built in a weekend. 
+
+Please setup your database with the name weekend-to-do-app, and run the table setup and dummy data (if desired) queries found in the database.sql file.
+
+This project uses Node.js. Install node on your machine, and use the command npm install from within this project directory to install all dependencies. 
