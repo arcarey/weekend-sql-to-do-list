@@ -7,12 +7,12 @@
     [x] drop the instructions into a database.sql file
 [x] setup express pool router (define routes)
 [x] setup express server
-[] setup jquery link to scripts.js
-[] scripts.js takes inputs
-[] scripts.js has delete and complete buttons
+[x] setup jquery link to scripts.js
+[x] scripts.js takes inputs
+[x] scripts.js has delete and complete buttons
 [] scripts.js has a css class change to show that it has been checked off
-[] complete tasks stay in the DB
-[] deleting a task pulls it from the DB
+[x] complete tasks stay in the DB
+[x] deleting a task pulls it from the DB
 [] css styling:
     [] background color
     [] font family and size
