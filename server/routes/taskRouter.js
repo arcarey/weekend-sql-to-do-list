@@ -26,8 +26,9 @@ router.post("/", (req, res) => {
   console.log('req.body.text:', newTask.text, 'req.body.complete:', newTask.complete);
   pool
     .query(queryText, [newTask.text, newTask.complete])
-    .then(() => {
-      res.sendStatus(201);
+    .then((result) => {
+        console.log('sending status');
+        res.sendStatus(201);
     })
     .catch((err) => {
       console.log("error adding task");
