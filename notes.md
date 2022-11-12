@@ -5,8 +5,8 @@
         ID, text, completed status bool.  
     [x] dummy data input
     [x] drop the instructions into a database.sql file
-[] setup express pool router (define routes)
-[] setup express server
+[x] setup express pool router (define routes)
+[x] setup express server
 [] setup jquery link to scripts.js
 [] scripts.js takes inputs
 [] scripts.js has delete and complete buttons
