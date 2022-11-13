@@ -1,13 +1,14 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: beige;
 }
 
 .completed{
-    background-color: rgba(63, 225, 63, 0.697);
     color: rgba(128, 128, 128, 0.864);
-
+    background-color: rgba(63, 225, 63, 0.382);
 }
 
-.incomplete{
-    background-color: lightskyblue;
+.incomplete{    
+    background-color: rgba(63, 225, 63, 0.697);
+
 }
