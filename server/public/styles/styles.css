@@ -12,3 +12,10 @@ body {
     background-color: rgba(63, 225, 63, 0.697);
 
 }
+input {
+    font-size: large;
+}
+#task-list {
+    font-size: large;
+        
+}

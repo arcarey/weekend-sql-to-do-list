@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/arcarey/weekend-sql-to-do-list/issues"
   },
-  "homepage": "https://github.com/arcarey/weekend-sql-to-do-list#readme"
+  "homepage": "https://github.com/arcarey/weekend-sql-to-do-list#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
 }
