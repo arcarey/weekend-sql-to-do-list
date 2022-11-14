@@ -12,7 +12,7 @@ let taskRouter = require('./routes/taskRouter');
 app.use('/tasks', taskRouter);
 
 // our standard has been to run on local PORT 5000, but new apple has updated to use port 5000 for airplay
-const PORT = 3500
+const PORT = process.env.PORT || 3500 
 app.listen(PORT, () => {
     console.log('Server running on port', PORT);
 });
