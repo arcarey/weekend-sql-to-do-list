@@ -10,7 +10,6 @@ if (process.env.DATABASE_URL){
 });
 }
 else {
-;
     pool = new pg.Pool({
         database: 'weekend-to-do-app',
         host: 'localhost',
